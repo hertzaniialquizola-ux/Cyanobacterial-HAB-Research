@@ -1,0 +1,8 @@
+NEARSHORE_KM=5.0
+county-years kept (>= 10 valid weeks): 6775, counties: 1030
+previous (centroid rule): 5679 county-years, 873 counties; counties gained: 160, lost: 3
+Lucas OH (39095) county-years: 7; Lee GA (13177): 0
+cei                ==0:  18.1%  >=0.99:   4.8%  median 0.368  IQR 0.074-0.727
+px_share_20k       ==0:   6.4%  >=0.99:   0.5%  median 0.116  IQR 0.023-0.398
+px_share_100k      ==0:   8.9%  >=0.99:   0.5%  median 0.076  IQR 0.011-0.357
+wk_frac_5pct_20k   ==0:  14.0%  >=0.99:   5.1%  median 0.438  IQR 0.115-0.750

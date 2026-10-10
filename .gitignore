@@ -1,0 +1,50 @@
+# Whitelist-style ignore: this project folder holds ~18 GB of raw data and model fits that must NOT
+# go to GitHub. Everything at the top level is ignored unless listed here.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/CITATION.cff
+!/requirements.txt
+!/r-packages.txt
+!/scripts/
+!/outputs/
+!/data/
+
+# outputs/: only small derived tables, the county adjacency graph, and the figure script
+/outputs/*
+!/outputs/county_year_panel_v2.csv
+!/outputs/county_pooled_panel.csv
+!/outputs/alt_cei_county_year.csv
+!/outputs/alt_cei_summary.txt
+!/outputs/paper_stats.json
+!/outputs/_county_summary.csv
+!/outputs/_hist_data.csv
+!/outputs/model_final_v3_nolst/
+!/outputs/model_pooled_nolst/
+!/outputs/validation/
+!/outputs/sdwis_test/
+!/outputs/model_mi/
+!/outputs/figures/
+/outputs/model_mi/*
+!/outputs/model_mi/county_graph.adj
+/outputs/figures/*
+!/outputs/figures/make_figures.py
+
+# data/: raw data are never committed (see data/README.md for how to obtain them)
+/data/*
+!/data/README.md
+
+# junk, caches, backups, large binaries anywhere
+__pycache__/
+*.pyc
+*.pkl
+*.bak
+*.bak*
+*.superseded
+.DS_Store
+.~lock*
+*.tmp
+.Rhistory
+.RData
+.Rproj.user/

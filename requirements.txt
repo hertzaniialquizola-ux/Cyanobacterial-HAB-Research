@@ -1,0 +1,11 @@
+# Python packages imported by scripts/ (no versions were pinned during development).
+# After your final run, record the exact versions:  python3 -m pip freeze > requirements-lock.txt
+pandas
+numpy
+scipy
+matplotlib
+geopandas
+shapely
+pyproj
+rasterio
+earthaccess      # NASA Earthdata downloads (CyAN, MODIS)

@@ -1,0 +1,18 @@
+STATES=['39', '19'] YEARS=[2021, 2022] RADIUS_KM=25.0
+Lakes (>=1 km2, LakePond/Reservoir) within the states + 25 km: 113
+CyAN composite groups to read: 55
+Lake-years with a usable metric (>= 10 valid weeks): 128 over 68 lakes
+Active community water systems in these states: 2205; source mix (people, millions): {'GU': 0.27, 'GUP': 0.02, 'GW': 4.05, 'GWP': 0.32, 'SW': 6.55, 'SWP': 2.27}
+Service-area polygons matched to systems: 2035 of 2205 (369 surface-water)
+  SW: 120 systems, 6.53M people | linked to a lake: overlapping 19%, within 25 km 29%, none 52% (people-weighted linked: 78%)
+  SWP: 249 systems, 2.19M people | linked to a lake: overlapping 5%, within 25 km 45%, none 50% (people-weighted linked: 71%)
+  GU: 7 systems, 0.27M people | linked to a lake: overlapping 0%, within 25 km 43%, none 57% (people-weighted linked: 56%)
+
+=== COUNTY-LEVEL COMPARISON (current vs drinking-water-weighted) ===
+counties in these states: 187 | with CURRENT exposure: 54 | with NEW exposure (SW only): 39 | (SW+SWP): 52
+2021: n=23 counties with both | Spearman current vs new(linked SW) = 0.86 | vs dose version = 0.73
+2022: n=21 counties with both | Spearman current vs new(linked SW) = 0.69 | vs dose version = 0.70
+Counties-years where CURRENT exposure shows blooms (>5% of lake pixels): 41; of those, 7% have <25% of residents on surface water (blooming lakes the population mostly does not drink from)
+Counties with current exposure but NO linked surface-water system: 51 county-years
+
+Files: lake_year_metrics_*.csv, system_exposure_*.csv, county_exposure_comparison_*.csv in outputs/sdwis_test/

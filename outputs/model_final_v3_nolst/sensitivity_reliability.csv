@@ -1,0 +1,12 @@
+analysis,error_type,reliability,attenuation,observed_RR,true_RR,true_lo95,true_hi95,basis
+"Pooled 2018-2024, kidney",none,1.0,1.0,1.007,1.007,0.969,1.047,approximation: attenuation = reliability
+"Pooled 2018-2024, kidney",any,0.5,0.5,1.007,1.014,0.938,1.096,approximation: attenuation = reliability
+"Pooled 2018-2024, kidney",any,0.3,0.3,1.007,1.024,0.899,1.165,approximation: attenuation = reliability
+"Pooled 2018-2024, liver",none,1.0,1.0,1.001,1.001,0.969,1.033,approximation: attenuation = reliability
+"Pooled 2018-2024, liver",any,0.5,0.5,1.001,1.002,0.94,1.068,approximation: attenuation = reliability
+"Pooled 2018-2024, liver",any,0.3,0.3,1.001,1.003,0.902,1.116,approximation: attenuation = reliability
+"Primary (county-year, BYM2)",none,1.0,1.0,0.997,0.997,0.977,1.018,simulated attenuation (non-spatial sim)
+"Primary (county-year, BYM2)",classical,0.5,0.166,0.997,0.981,0.867,1.11,simulated attenuation (non-spatial sim)
+"Primary (county-year, BYM2)",classical,0.3,0.078,0.997,0.96,0.737,1.25,simulated attenuation (non-spatial sim)
+"Primary (county-year, BYM2)",persistent,0.5,0.713,0.997,0.996,0.967,1.025,simulated attenuation (non-spatial sim)
+"Primary (county-year, BYM2)",persistent,0.3,0.522,0.997,0.994,0.955,1.034,simulated attenuation (non-spatial sim)

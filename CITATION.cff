@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived county-year tables, please cite them as below."
+title: "Satellite-Measured Cyanobacterial Bloom Intensity and Kidney and Liver Disease Mortality Across U.S. Counties: analysis code and derived data"
+type: software
+authors:
+  - family-names: "Alquizola"
+    given-names: "Hertzan D."
+    name-suffix: "II"
+license: MIT
+keywords:
+  - cyanobacteria
+  - harmful algal blooms
+  - CyAN
+  - Bayesian spatial model
+  - BYM2
+  - R-INLA
+  - county mortality

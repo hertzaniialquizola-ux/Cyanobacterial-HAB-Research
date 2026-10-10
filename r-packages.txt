@@ -1,0 +1,11 @@
+# R packages used by scripts/*.R (install INLA from its own repository, not CRAN):
+#   install.packages("INLA", repos = c(getOption("repos"), INLA = "https://inla.r-inla-download.org/R/stable"), dep = TRUE)
+INLA
+sf
+spdep
+dplyr
+ggplot2
+ranger        # double machine learning check (fit_dml_pooled.R)
+tigris        # county boundaries helper in data-acquisition scripts
+nhdplusTools  # NHDPlus lake download
+# After your final run, record versions from R:  writeLines(capture.output(sessionInfo()), "r-session-info.txt")

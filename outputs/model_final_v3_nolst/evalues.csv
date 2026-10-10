@@ -1,0 +1,4 @@
+"scenario","ratio_needed","E_value"
+"true RR 1.05 per IQR hidden by confounding (observed ~0.993)",1.05740181268882,1.30376897930967
+"true RR 1.10 hidden",1.10775427995972,1.45324706542615
+"true RR 1.20 hidden",1.20845921450151,1.71037002192858

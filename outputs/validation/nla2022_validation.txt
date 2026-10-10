@@ -1,0 +1,22 @@
+NLA 2022 visits: 1129; matched to a CyAN composite with >= 3 valid pixels within 1000 m: same-week 340, +/-1 week 387
+
+== same: n=340 lakes; microcystin detected 54%, >=1 ug/L 16%, >=8 ug/L 13 lakes
+   same_share20k          Spearman vs microcystin: +0.47 (p=1.06e-19); AUC detect 0.68; AUC >=1 ug/L 0.83; AUC >=8 ug/L 0.78
+   same_log10_cells       Spearman vs microcystin: +0.48 (p=7.61e-21); AUC detect 0.70; AUC >=1 ug/L 0.87; AUC >=8 ug/L 0.85
+   same_dn_max            Spearman vs microcystin: +0.49 (p=5.67e-22); AUC detect 0.69; AUC >=1 ug/L 0.86; AUC >=8 ug/L 0.82
+   Pearson r (log10 cells vs log10 microcystin, ND=0.05): 0.59  (r^2 = 0.34)
+   lakes with share>=20k >=20% of pixels: n=135, median microcystin 0.35, >=1 ug/L 37%;  share<2%: n=183, median 0.00, >=1 ug/L 3%
+
+== pm1wk: n=387 lakes; microcystin detected 55%, >=1 ug/L 16%, >=8 ug/L 14 lakes
+   pm1wk_share20k         Spearman vs microcystin: +0.45 (p=1.73e-20); AUC detect 0.68; AUC >=1 ug/L 0.83; AUC >=8 ug/L 0.79
+   pm1wk_log10_cells      Spearman vs microcystin: +0.44 (p=2.05e-19); AUC detect 0.68; AUC >=1 ug/L 0.84; AUC >=8 ug/L 0.82
+   pm1wk_dn_max           Spearman vs microcystin: +0.45 (p=5.84e-21); AUC detect 0.67; AUC >=1 ug/L 0.86; AUC >=8 ug/L 0.83
+   Pearson r (log10 cells vs log10 microcystin, ND=0.05): 0.58  (r^2 = 0.34)
+   lakes with share>=20k >=20% of pixels: n=151, median microcystin 0.31, >=1 ug/L 35%;  share<2%: n=202, median 0.00, >=1 ug/L 3%
+
+== county level: 771 counties had NLA 2022 lakes; 357 of them are in the analytic sample with a 2022 exposure
+   county 2022 px_share_20k vs NLA micx_mean: Spearman +0.21 (p=6.57e-05, n=357)
+   county 2022 px_share_20k vs NLA micx_max: Spearman +0.20 (p=0.000108, n=357)
+   county 2022 px_share_20k vs NLA detect: Spearman +0.13 (p=0.0141, n=357)
+
+Caveats: single-date grab samples vs weekly satellite composites; sample point may be near shore where pixels are invalid; this measures agreement at the lake-week level, not the reliability of a county-year mean, so treat it as a guide for choosing reliability values in the simulation.
