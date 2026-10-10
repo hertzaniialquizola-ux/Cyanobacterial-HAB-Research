@@ -2,6 +2,10 @@ cff-version: 1.2.0
 message: "If you use this code or the derived county-year tables, please cite them as below."
 title: "Satellite-Measured Cyanobacterial Bloom Intensity and Kidney and Liver Disease Mortality Across U.S. Counties: analysis code and derived data"
 type: software
+version: "1.0.0"
+date-released: 2026-10-10
+doi: "10.5281/zenodo.23286147"
+repository-code: "https://github.com/hertzaniialquizola-ux/Cyanobacterial-HAB-Research"
 authors:
   - family-names: "Alquizola"
     given-names: "Hertzan D."

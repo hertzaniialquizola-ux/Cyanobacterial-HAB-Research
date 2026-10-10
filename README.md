@@ -1,5 +1,7 @@
 # Satellite-measured cyanobacterial bloom intensity and kidney and liver disease mortality across U.S. counties
 
+[![DOI](https://zenodo.org/badge/1413475442.svg)](https://doi.org/10.5281/zenodo.23286147)
+
 Analysis code and derived county-year tables for a county-level Bayesian spatial study (2018-2024) of
 whether satellite-measured cyanobacterial bloom intensity in a county's lakes is associated with kidney
 (ICD-10 N18) and liver (K74, K76) mortality. Data are public; this repository holds code and small derived
@@ -82,3 +84,5 @@ ISEF paperwork. The author ran the analyses and made the research decisions.
 ## License and citation
 Code: MIT (see `LICENSE`). Derived tables are built from public data; please also cite the original data
 providers listed in `data/README.md`. Citation metadata: `CITATION.cff`.
+
+Archived release (v1.0.0) on Zenodo; cite all versions with DOI [10.5281/zenodo.23286147](https://doi.org/10.5281/zenodo.23286147).
